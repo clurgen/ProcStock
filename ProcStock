@@ -1,0 +1,56 @@
+delimiter |
+DROP PROCEDURE if EXISTS baclic |
+CREATE PROCEDURE baclic ()
+BEGIN
+	SELECT emp_nom, emp_prenom from employe e inner join posseder p on e.emp_id=p.pos_employe inner join diplome d on p.pos_diplome=d.dip_id and dip_libelle = "Bac" and emp_id in (SELECT emp_id from employe e inner join posseder p on e.emp_id=p.pos_employe inner join diplome d on p.pos_diplome=d.dip_id and dip_libelle = "Licence") ;
+END
+|
+CALL baclic()|
+delimiter ;
+
+
+
+
+delimiter |
+DROP PROCEDURE if EXISTS borne |
+CREATE PROCEDURE borne (IN borneInf int, IN borneSup int)
+BEGIN
+	select emp_nom, emp_prenom from employe where emp_salaire <= borneSup and emp_salaire >= borneInf ;
+END
+|
+CALL borne(2400,3000)|
+delimiter ;
+
+
+
+
+delimiter |
+DROP PROCEDURE if EXISTS updateService |
+CREATE PROCEDURE updateService (IN numero int, IN pourcentage double)
+BEGIN
+	update service set ser_budget = (ser_budget + ser_budget * pourcentage) where ser_id = numero ;
+END
+|
+CALL updateService(3,0.3)|
+delimiter ;
+
+
+
+
+delimiter |
+DROP PROCEDURE if EXISTS diplome |
+CREATE PROCEDURE diplome ()
+BEGIN
+	SELECT emp_nom, emp_prenom from employe e inner join posseder p on e.emp_id=p.pos_employe where emp_id > avg(pos_diplome);
+END
+|
+CALL diplome()|
+delimiter ;
+
+select pos_employe, avg(pos_diplome) from posseder ;
+
+
+
+
+
+select avg(pos_employe) from posseder ;

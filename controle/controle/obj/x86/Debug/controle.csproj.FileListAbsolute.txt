@@ -1,0 +1,15 @@
+U:\sio2 slam3\controle\controle\bin\Debug\controle.exe
+U:\sio2 slam3\controle\controle\bin\Debug\controle.pdb
+U:\sio2 slam3\controle\controle\obj\x86\Debug\controle.exe
+U:\sio2 slam3\controle\controle\obj\x86\Debug\controle.pdb
+C:\slam 3\controle\controle\obj\x86\Debug\controle.exe
+C:\slam 3\controle\controle\obj\x86\Debug\controle.pdb
+C:\slam 3\controle\controle\bin\Debug\controle.exe
+C:\slam 3\controle\controle\bin\Debug\controle.pdb
+C:\Users\cleme\OneDrive\Documents\COURS\controle\controle\bin\Debug\controle.exe
+C:\Users\cleme\OneDrive\Documents\COURS\controle\controle\bin\Debug\controle.pdb
+C:\Users\cleme\OneDrive\Documents\COURS\controle\controle\bin\Debug\MySql.Data.dll
+C:\Users\cleme\OneDrive\Documents\COURS\controle\controle\obj\x86\Debug\controle.csprojResolveAssemblyReference.cache
+C:\Users\cleme\OneDrive\Documents\COURS\controle\controle\obj\x86\Debug\controle.csproj.CoreCompileInputs.cache
+C:\Users\cleme\OneDrive\Documents\COURS\controle\controle\obj\x86\Debug\controle.exe
+C:\Users\cleme\OneDrive\Documents\COURS\controle\controle\obj\x86\Debug\controle.pdb
