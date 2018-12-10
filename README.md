@@ -2,13 +2,13 @@
 
 **Présentation du projet :**
 >Projet d'initiation aux Procedures Stockees.
->Le but est de réaliser un programme C# qui permet de Consulteret mettre à jour une base de donnée grace a MySql via des procedures stockées.
+>Le but est de réaliser un programme C# qui permet de Consulter et mettre à jour une base de donnée grace a MySql via des procedures stockées.
 
 
 **Les outils mis en oeuvre :**
 * git / MarkDown.
 
-* visual studio :
+* Visual Studio :
   >Gestion de classe
   
   >Methodes 
@@ -24,7 +24,8 @@
   >Constructeur
   
   >Utilisation de dll (MySql.Data).
-* mysql :
+  
+* MySql :
   >Mise en place de requêtes 
   
   >Mise en place de Procedures
@@ -35,11 +36,11 @@
   
   >count, Sum, Min, Max, Avg.
 
-**Le dévoppement tourne autour de Consulteret mettre à jour une base de donnée:**
+**Le développement tourne autour de la consultation et mise à jour d'une base de donnée:**
 
-|Développement                                |Langages |Technique de programmation                           |
-|---------------------------------------------|:-------:|----------------------------------------------------:|
-|Consulteret mettre à jour une base de donnée |C#,MySql |Programmation procédural procédures stockées en mysql|
+|Développement                                |Langages |Technique de programmation                            |
+|---------------------------------------------|:-------:|----------------------------------------------------:-|
+|Consulteret mettre à jour une base de donnée |C#,MySql |Programmation procédural? procédures stockées en mysql|
 
 
 
