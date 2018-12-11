@@ -6,7 +6,6 @@
 
 
 **Les outils mis en oeuvre :**
-* git / MarkDown.
 
 * Visual Studio :
   >Gestion de classe
