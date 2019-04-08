@@ -37,9 +37,9 @@
 
 **Le développement tourne autour de la consultation et mise à jour d'une base de donnée:**
 
-|Développement                                |Langages |Technique de programmation                            |
-|---------------------------------------------|:-------:|----------------------------------------------------:-|
-|Consulteret mettre à jour une base de donnée |C#,MySql |Programmation procédural? procédures stockées en mysql|
+|Développement                                |Langages |Technique de programmation                           |
+|---------------------------------------------|:-------:|-----------------------------------------------------|
+|Consulter et mettre à jour une base de donnée|C#,MySql |Programmation procédural procédures stockées en mysql|
 
 
 
